@@ -11,7 +11,7 @@ module MUX_2x1_tb;
   initial
     begin
       select_in = 0       ;       input1_in = 0;       input2_in = 0;
-      #1if (out_1 == 0)           $display ("TRUE");
+      #5if (out_1 == 0)           $display ("TRUE");
       else $display ("FALSE");
       
       #5 select_in = 0       ;       input1_in = 0;       input2_in = 1;

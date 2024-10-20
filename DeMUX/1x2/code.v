@@ -1,4 +1,4 @@
-module DeMUX_2x1(out1, out2, select, inputt);
+module DeMUX_1x2(out1, out2, select, inputt);
   output out1, out2;
   input select;
   input inputt;
